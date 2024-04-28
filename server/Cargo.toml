@@ -5,4 +5,6 @@ edition = "2021"
 
 [dependencies]
 hyper_wasi = { version = "0.15", features = ["full"]}
+lol_html = "1.2.1"
+mini-moka = "0.10.3"
 tokio_wasi = { version = "1", features = ["rt", "macros", "net", "time", "io-util"]}
